@@ -1,0 +1,440 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+}
+/* ............................Navbar start............................... */
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#adbbad,#7091e6);
+    padding: 0 !important;
+    /* imporatnt means it must be apply ..else you make changes */
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a 
+{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+
+
+
+/* ............................Navbar end.............................. */
+/* ............................Banner section.......................... */
+
+
+#banner
+{
+    background-image: linear-gradient(to right,#adbbad,#7091e6);
+    color: #fff;
+    padding-top: 1%;
+}
+h1
+{
+    padding: 25px;
+    display: inline-block;
+    padding-left: 0px;
+    margin-top: 100px;
+
+}
+p
+{
+    text-align:left;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+
+#reason
+{
+    text-align: center;
+    padding-top: 50px;
+    font-size: sans-serif ;
+}
+/* ....................benefit.............................. */
+#benifit
+{
+    padding: 20px;
+}
+.benifit-img
+{
+    padding-top: 80px;
+}
+/* .benifit
+{
+    padding: 20px;
+} */
+.benifits h5
+{
+      padding: 50px ;
+    margin-top: 40px;
+    text-transform: lowercase;
+}
+h5
+{
+    padding: 20px;
+    padding-bottom: 5px;
+    color: rgb(134, 2, 134);
+}
+/* ......................features............................. */
+#feature
+{
+    padding: 50px;
+    font-size: sans-serif ;
+
+}
+h5
+{
+text-align: center;
+}
+.title
+{
+    text-align: center;
+    font-family: sans-serif;
+    font-size:15px;
+}
+#feature
+{
+    padding: 20px;
+    margin-top: 40px;
+
+}
+.box
+{
+    /* padding: 300px; */
+    /* padding-left: 20px; */
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 90px;     /* ye right to left lk lye*/
+    margin-top: 40px;
+    padding: 7px 70px; /* Equivalent to py-4 px-5 in Bootstrap */
+    background-color: #bedaf5; /* Replace with your primary color */
+    color: rgb(19, 15, 15); 
+    font-size: 17px;
+}
+/* ----------------------------------------FAQ---------------------------------- */
+
+#Faq 
+{
+    padding: 50px;
+}
+h5
+ {
+    margin-top: 40px;
+    padding: 0px; 
+}
+.show p
+{
+
+   text-align: center;
+   margin-top: 0px;
+   margin-bottom: 40px;
+
+
+   /* margin-top: 40px; */
+}
+.show
+{
+    text-align: center;
+    font-family: sans-serif;
+    font-size:15px;
+    margin-top: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top:  0px;
+}
+
+.column {
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Accordion styles */
+.accordion-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.accordion-header {
+    margin: 0;
+}
+
+.accordion-button {
+    width: 100%;
+    background-color: #bedaf5;
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s;
+}
+/* 
+.accordion-button:hover {
+    background-color: #e2e6ea;
+} */
+
+.accordion-collapse {
+    display: none;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.accordion-collapse.show {
+    display: block;
+}
+
+/* Styling for the accordion body text */
+.accordion-body {
+    text-align: start;
+}
+
+/* For plus/minus toggle effect */
+ /* .accordion-button::after {
+     content:   ; 
+    float: right;
+}
+
+.accordion-collapse.show + .accordion-button::after {
+    content: '-';
+}  */
+
+ /* CSS */
+.accordion-button::after {
+    content: '\25BC'; /* Unicode for down triangle (▼) */
+    float: right;
+}
+
+.accordion-button.active::after {
+    content: '\25B2'; /* Unicode for up triangle (▲) */
+}
+
+/* ....................About us........................... */
+#about-us
+{
+    background: #f8f9fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+#about-us ul li
+{
+    margin-top: 10px 0;
+}
+#about-us ul
+{
+    margin-left: 20px;
+}
+/* ..............................Testimotionals....................... */
+#testimotionals
+{
+    margin: 100px 0;
+}
+.testimotionals
+{
+    border-left: 4px solid #7091e6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimotionals img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.user-details
+{
+    display: inline-block;
+    font-size: 12px;
+}
+/* ...................................who uses examcraft.............. */
+#who-use
+{
+    background: #f8f9fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 100px 0;
+}
+.who-use
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* ............................Footer............................ */
+
+#footer
+{
+    /* background-image: linear-gradient(#cdeef9,#9ab4f7); */
+    background-color:#bedaf5;
+    color: #0a0101;
+}
+.footer-img
+{
+    width: 100%;
+}
+.footer-box
+{
+    padding: 50px;
+    
+}
+.footer-box img
+{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.footer-box .fa
+{
+   margin-right: 8px;
+   font-size: 25px;
+   height: 40px;
+   width: 40px;
+   text-align: center;
+   padding-top: 7px;
+   border-radius: 2px;
+   background-image: linear-gradient(to right,#adbbad,#7091e6);
+}
+.footer-box .form-control
+{
+    box-shadow: #7091e6;
+    border: none;
+    border-radius: 0;
+    margin-top: 20px;
+    max-width: 300px;
+}
+.footer-box .btn-primary
+{
+    box-shadow: 10px !important;
+    border: black;
+    border-radius: 10;
+    margin-top: 30px;
+   background-image: linear-gradient(to right,#adbbad,#7091e6);
+}
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    padding-left: 430px;
+    color: #0a0101;
+}
+
+
+/* Profile icon */
+.avatar {
+    margin: 5px 5px;
+    position:sticky;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    display: inline-block;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Profile Card */
+.profile-card {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 300px;
+    background-color: #ede8f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 100;
+}
+
+/* Show profile card when checkbox is checked */
+#toggle-profile:checked ~ .profile-card {
+    display: block;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-header h3 {
+    font-size: 22px;
+}
+
+.profile-header p {
+    font-size: 14px;
+    color: #555;
+}
+
+.profile-body {
+    font-size: 16px;
+}
+
+.edit-btn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #8697ca;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.edit-btn:hover {
+    background-color: #8697ca;
+}
+
+
+
+
+

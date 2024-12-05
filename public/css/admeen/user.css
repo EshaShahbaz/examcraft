@@ -1,0 +1,218 @@
+.profile-card {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-header h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-header p {
+    color: #555;
+}
+
+.profile-body {
+    font-size: 16px;
+}
+
+.profile-body p {
+    margin: 10px 0;
+}
+
+.edit-btn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.edit-btn:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profile-table th, .profile-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.edit-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.edit-btn:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+*{
+    padding: 0;
+    margin-top: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+.container
+{
+    margin-top: 0;
+}
+.img-fluid
+{
+    width: 220px;
+    margin-top: 40px;
+}
+.columns
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.form-group
+{
+	margin: 20px 0;
+}
+.form-group .form-control 
+{
+	display: block;
+	width: 100%;
+	padding: 10px;
+    border: none;
+	border-bottom: 2px solid grey; 
+	outline: none;
+}
+form
+{
+    width: 360px;
+}
+form h2
+{
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    margin: 15px 0;
+    color: #000;
+}
+
+/* .dropbtn {
+   
+    background-image: linear-gradient(to right, #3d52a0, #7091e6);
+    color: black;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    width: 100%;
+  } */
+  
+  /* The container <div> - needed to position the dropdown content */
+  /* .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  } */
+  
+  /* Dropdown Content (Hidden by Default) */
+  /* .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  } */
+  
+  /* Links inside the dropdown */
+  /* .dropdown-content a {
+    text-align: center;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  } */
+  
+  /* Change color of dropdown links on hover */
+  /* .dropdown-content a:hover {background-color: #ddd;} */
+  
+  /* Show the dropdown menu on hover */
+  /* .dropdown:hover .dropdown-content {display: block;} */
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button 
+{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(to left, #adbbad, #8697c4);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+
+

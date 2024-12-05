@@ -1,0 +1,65 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    font-family: sans-serif;
+    background-image: linear-gradient(to right,#ede8f5,#ede8f5);
+}
+.container
+{
+    padding: 40px;
+    margin: 50px;    
+}
+.row
+{
+    justify-content: center;
+    padding-top: 20px;
+}
+form h2
+{
+    font-style: italic;
+}
+form{
+    border: 2px solid #adbbda; 
+    border-style:hidden; 
+    padding: 40px 40px;
+    width: 450px;
+    background-image: linear-gradient(to right,#adbbda,#adbbda);
+}
+.form-group label
+{
+    font-style: italic;
+    font-weight: 600;
+}
+.form-group input
+{
+	display: block;
+	width: 100%;
+	border: 2px solid grey; 
+}
+form .button
+{
+    color: black;
+    margin: 15px 0;
+    width: 100%;
+    height: 16%;
+    border-radius: .2rem;
+	border: 2px solid grey; 
+    font-style: italic;
+    font-weight: 600;
+    background-color: #ede8f5;
+}
+form .button:hover
+{
+    background-color: #8697c4;
+}
+.select-box
+{
+    border: 2px solid grey;
+    width: 100%;
+    padding: 7px;
+    border-radius: .2rem;
+}

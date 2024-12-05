@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    font-family: sans-serif;
+    background-image: linear-gradient(to right,#ede8f5,#ede8f5);
+}
+.container
+{
+    padding: 0;
+    margin-top: 45px;   
+}
+.row
+{
+    justify-content: center;
+    padding-top: 20px;
+}
+form h2
+{
+    font-style: italic;
+}
+form{
+    border: 2px solid #adbbda; 
+    border-style:hidden; 
+    padding: 40px 40px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right,#adbbda,#adbbda);
+}
+.form-group label
+{
+    font-style: italic;
+    font-weight: 600;
+}
+
+.form-group input
+{
+	display: block;
+	width: 100%;
+	border: 2px solid grey; 
+}
+.form-group textarea
+{
+	display: block;
+	width: 100%;
+	border: 2px solid grey; 
+}
+form .button
+{
+    color: black;
+    margin: 15px 0;
+    padding: 10px 15px;
+    float:right;
+    border-radius: .2rem;
+	border: 2px solid grey; 
+    font-style: italic;
+    font-weight: 600;
+    background-color: #ede8f5;
+}
+form .button:hover
+{
+    background-color: #8697c4;
+}
+.select-box
+{
+    border: 2px solid grey;
+    width: 100%;
+    padding: 7px;
+    border-radius: .2rem;
+}
+/* .form-check .form-check-label
+{
+    float:left;
+    padding: 0 20px;
+}
+.form-check .form-check-input
+{
+    display: none;
+    float: left;
+    padding: 0 20px;
+} */
+
+/* .form-check {
+    margin-bottom: 10px; 
+}
+
+.form-check-input {
+    width: 20px; 
+    height: 20px;
+}
+
+.form-check-label {
+    font-size: 16px; 
+} */
+
+
+.dropdown-menu {
+    max-height: 300px; /* Limit the dropdown height */
+    overflow-y: auto;  /* Adds a scroll bar if the dropdown exceeds the max height */
+}
+
+.form-check-input {
+    width: 20px; /* Adjusts the size of the checkbox */
+    height: 15px;
+}
+
+.form-check-label {
+    font-size: 16px; /* Adjusts the font size of the labels */
+}
+#chapterDropdown {
+    background-color: #ede8f5; 
+    color: black; /* black text */
+    padding: 8px 16px; /* Custom padding for larger button size */
+    font-size: 18px; /* Custom font size */
+    border-radius: 8px; /* Rounded corners */
+    /* font-weight: bold; */
+}
+
+/* On hover, change the color */
+#chapterDropdown:hover {
+    background-color: #adbbda; /* Darker green on hover */
+}

@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin-top: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+.container
+{
+    margin-top: 0;
+}
+.img-fluid
+{
+    width: 520px;
+    margin-top: 40px;
+}
+.columns
+{
+    /* border: 1px solid black; */
+    float: left; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.form-group
+{
+	margin: 20px 0;
+}
+.form-group .form-control    
+{
+	display: block;
+	width: 100%;
+	padding: 10px;
+    border: none;
+	border-bottom: 2px solid grey; 
+	outline: none;
+}
+form
+{
+    width: 360px;
+}
+form h2
+{
+    font-size: 2.9rem;
+    text-transform: uppercase;
+    margin: 15px 0;
+    color: #000;
+}
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}   
+
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button 
+{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(to left, #adbbad, #8697c4);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+button:hover {
+    background-color: #0056b3;
+}
